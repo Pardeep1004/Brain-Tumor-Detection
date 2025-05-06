@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment
+env/
+venv/
+ENV/
+
+# Mac and Windows system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Logs and debug files
+*.log
+
+# Model files
+*.h5
+*.hdf5
+*.tflite
+*.pb
+
+# Dataset files
+dataset/
+*.zip
+*.tar.gz
+
+# Environment and dependency files
+.env
+
+
+
+# Static image uploads (optional, if user uploads should not be tracked)
+static/uploads/
+
+# Git LFS pointer files (optional)
+*.lfs
+
+# Ignore your actual trained model
+models/brain_tumor_model.h5
