@@ -21,7 +21,7 @@ TensorFlow / Keras
 OpenCV
 Jupyter Notebook or Google Colab (for experiments)
 
-How to Run
+**How to Run**
 bash
 Copy
 Edit
@@ -35,26 +35,22 @@ pip install -r requirements.txt
 # 3. Run the code
 Brain_MRI.ipynb
 
-🧠 Model Architecture
-text
-Copy
-Edit
+**Model Architecture**
+
 Input Layer (150x150x3)
 → Conv2D → MaxPooling
 → Conv2D → MaxPooling
 → Flatten → Dropout
 → Dense → Dense (Softmax)
 Optimizer: Adam
-
 Loss: Categorical Crossentropy
-
 Accuracy: ~95% on validation set
 
 
 Jupyter Notebook
 Code available in notebooks/brain_tumor_detection.ipynb
 
-📁 File Structure
+File Structure
 cpp
 Copy
 Edit
@@ -67,5 +63,6 @@ Brain-Tumor-Detection/
 ├── templates/
 ├── requirements.txt
 └── README.md
-📄 License
+
+License
 MIT License — feel free to use and modify!
